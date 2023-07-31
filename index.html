@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<style>
+
+/* for login form */
+    h1{
+      text-align: center;  
+      padding: 0px 10px 10px 10px;
+    }
+
+    hr {
+  border: 1px solid #0000002a;
+  margin-bottom: 25px;
+}
+
+/* for the form */
+    form { background-color:  #f1f1f1;}
+
+/* for the input field email and password */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 10px 15px;
+  margin: 10px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* for button */
+button {
+  background-color: #03a50b;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  width: 100%;
+}
+
+
+/* for container elements */
+.container {
+  padding: 16px 16px 16px 16px;
+}
+</style>
+<body>
+    <form >
+        
+        <div class="container">
+            <h1>Login Form</h1>
+            <hr>
+          <label for="uname"><b>Username</b></label>
+          <input type="text" placeholder="Enter Username" name="uname" required>
+      
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+              
+          <button type="submit">Login</button>
+      </form>
+  
+
+</body>
+</html>
